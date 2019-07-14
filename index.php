@@ -32,11 +32,18 @@ echo $root;*/
 //$aluno->insert();
 //echo $aluno;
 
-//Alterando dados 
+//Alterando um usuario 
 //$usuario = new Usuarios();
 //$usuario->loadById(4);
 //$usuario->update("Leonardo", "leo123");
 //echo $usuario;
 
+$usuario = new Usuarios();
+
+$usuario->loadById(10);
+
+$usuario->delete();
+
+echo $usuario;
 
  ?>
